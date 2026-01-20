@@ -1,0 +1,42 @@
+### **Phase 1: Defining the Tech Stack**
+*   **Language:** Pure **HTML5, CSS3, and JavaScript**. No heavy engines were used, making the game lightweight and fast.
+*   **Rendering:** Used the **HTML5 Canvas API** to draw the stickmen, weapons, and animations frame-by-frame.
+*   **Multiplayer Engine:** Integrated **PeerJS (WebRTC)**. This allows two devices to connect directly (Peer-to-Peer) using a unique ID, simulating a Bluetooth pairing experience without needing a central game server.
+
+### **Phase 2: Building the Game Logic**
+1.  **Object-Oriented Programming (OOP):** Created a `Stickman` class. This allows the game to treat the Player and the AI (or the second player) as separate objects with their own health, position, and weapon stats.
+2.  **The Physics Engine:** 
+    *   Implemented **Gravity** (vertical acceleration) and **Friction** (horizontal deceleration).
+    *   Tuned the speed to **"Natural 1x"** by carefully calibrating the pixels-per-frame movement to ensure it doesn't look too fast or "glitchy."
+3.  **Weapon System:** 
+    *   Created a database of **12 weapons**, each with unique variables for `Damage`, `Range`, and `Swing Speed`.
+    *   Added a **Boolean check** for "Throwable" weapons.
+
+### **Phase 3: Animation & Combat**
+1.  **Procedural Animation:** Instead of using static images, the stickman’s limbs are drawn using coordinates. When you walk, a `sine wave` function moves the legs back and forth.
+2.  **Combat Calculation:** 
+    *   When an attack is triggered, the game calculates the distance between Player A and Player B. 
+    *   If the distance is less than the weapon’s `Range`, the opponent's `HP` is decreased by that specific weapon's `Damage` value.
+3.  **The Throw Mechanic:** Built a "Projectile State." When thrown, the weapon detaches from the hand, moves toward the target, checks for a hit (dealing 50% damage), and then uses a **Return Logic** to pull the weapon back to the owner like a boomerang.
+
+### **Phase 4: User Interface & Experience (UI/UX)**
+1.  **Responsive Design:** Used CSS media queries to detect if the user is on a phone or PC.
+2.  **Dual Controls:** 
+    *   **PC:** Mapped `WASD` keys and `Mouse Clicks` for high-precision play.
+    *   **Mobile:** Created a **Virtual Floating Joystick** and touch-responsive buttons for a console-like experience.
+3.  **Landscape Lock:** Added a "Rotate Device" overlay to ensure the game is always played in landscape mode for a wider field of view.
+4.  **Game HUD:** Developed a "Head-Up Display" showing real-time Health Bars and a **1:20 Countdown Timer**.
+
+### **Phase 5: Visuals & Audio**
+1.  **Dynamic Stages:** Coded a randomizer that changes the floor and wall colors every match (Wrestling ground, Field, Showroom, etc.).
+2.  **Damage Indicators:** Added "Floating Text" logic. Whenever a hit occurs, a red number pops up over the stickman and fades away, providing visual feedback of the damage dealt.
+3.  **Branding:** Added a floating, animated credit for **Sayan Das** in the main menu to mark ownership.
+
+### **Phase 6: Deployment**
+1.  **GitHub Hosting:** Uploaded the `index.html` file to a GitHub Repository.
+2.  **GitHub Pages:** Enabled the "Pages" feature in settings to turn the code into a live website.
+3.  **Permanent Link:** This provides a free, permanent URL that anyone in the world can visit to play the game instantly.
+
+----------------------
+**Summary**
+*"I built this by coding a physics engine in JavaScript, drawing the graphics on a digital canvas, and using WebRTC technology to let two phones talk to each other directly for multiplayer action!"*

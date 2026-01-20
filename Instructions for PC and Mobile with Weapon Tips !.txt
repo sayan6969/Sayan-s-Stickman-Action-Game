@@ -1,0 +1,32 @@
+## 💻 PC Playing Instructions
+*Play like a pro using your keyboard and mouse.*
+
+*   **Move Left:** Press the **[ A ]** key.
+*   **Move Right:** Press the **[ D ]** key.
+*   **Jump:** Press the **[ W ]** key.
+*   **Attack (Weapon):** Use **[ Left Click ]** on your mouse.
+*   **Kick:** Use **[ Right Click ]** on your mouse.
+*   **Throw Weapon:** Press the **[ Spacebar ]** (Only works for *Throwable* weapons like the Axe, Dagger, Spear, etc.).
+
+---
+
+## 📱 Mobile Playing Instructions
+*Optimized for landscape mode. Rotate your phone to start.*
+
+*   **Movement:** Use the **Floating Joystick** on the **left side** of the screen.
+    *   Slide left/right to walk.
+    *   Slide the joystick **Up** to jump.
+*   **Attack (Weapon):** Tap the **[ Punch Icon ]** button on the right.
+*   **Kick:** Tap the **[ Leg Icon ]** button on the right.
+*   **Throw Weapon:** Tap the **[ Orange Throw Button ]**. 
+    *   *Note: This button only appears if you have selected a weapon labeled as "Throwable".*
+
+---
+
+## ⚔️ Special Weapon Tips
+*   **Heavies (Mace/Axe):** Very high damage but slow swings. Time your hits carefully!
+*   **Speedsters (Nunchaku/Knuckles):** Very fast attacks. Stay close to the enemy and keep hitting them.
+*   **Polearms (Spear):** Use the long reach to hit enemies before they can get close to you.
+*   **Throwables:** If an enemy is running away, press **Space** or the **Throw button**. The weapon will fly, hit them, and magnetically return to your hand!
+
+---

@@ -1,0 +1,6 @@
+## 🌐 How to Play Multiplayer (Bluetooth P2P)
+1.  Both players open the game link.
+2.  **Player 1:** Clicks **Bluetooth P2P**, copies the "Your ID" (e.g., `sayan-xyz`), and sends it to Player 2.
+3.  **Player 2:** Clicks **Bluetooth P2P**, pastes Player 1's ID into the box, and clicks **Connect**.
+4.  Once connected, both players select their weapons and hit **Confirm**.
+5.  **Let the battle begin!**

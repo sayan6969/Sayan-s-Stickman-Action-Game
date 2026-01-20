@@ -1,0 +1,11 @@
+# 🕹️ Sayan's Stickman Action: Official Guide
+**Created by - Sayan Das**
+
+## 🏆 Game Rules
+1. **The Objective:** Reduce your opponent's health (HP) to **0** to win the match instantly.
+2. **Match Timer:** Every match lasts **1 minute and 20 seconds**. If the time runs out, the player with the **highest remaining HP** is declared the winner.
+3. **Weapon Damage:** 
+   - **Melee Attacks:** Deal 100% of the weapon's base damage.
+   - **Kicks:** Deal a standard 10 damage but help push the enemy away.
+   - **Throws:** Throwable weapons deal **50% damage** but allow you to hit from a safe distance.
+4. **Natural Physics:** The game runs at **1x Natural Speed**. Movement is weighted—use your momentum to jump over attacks or close the gap on your enemy.
